@@ -1,0 +1,22 @@
+<div>
+    <h1>Add Organization Heirarchy</h1>
+    <div class="form" fxLayout="row" fxLayoutGap="10px">
+
+        <mat-form-field fxFlex="40" appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput [(ngModel)]="orgHeirarchy.name">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill"  fxFlex="20">
+            <mat-label>Level</mat-label>
+            <input matInput [(ngModel)]="orgHeirarchy.level">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill"  fxFlex="40">
+            <mat-label>Description</mat-label>
+            <input matInput [(ngModel)]="orgHeirarchy.description">
+        </mat-form-field>
+    </div>
+    <button mat-raised-button color="primary" (click)="add()">Add</button>
+    <button mat-raised-button (click)="addCloseEmit()">Cancel</button>
+</div>

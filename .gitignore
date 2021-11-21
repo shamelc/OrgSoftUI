@@ -1,0 +1,54 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+.angular/cache/babel-webpack/f63eb27ea2b7418af7d7901c61563cc2.json
+.angular/cache/angular-webpack/6a7bc2821744880d648f8e6db00ac26ecbb624da/0.pack
+.angular/cache/angular-webpack/6a7bc2821744880d648f8e6db00ac26ecbb624da/index.pack
+.angular/cache/babel-webpack/20b9aad165893d41e7d75b73a6591433.json
+.angular/cache/babel-webpack/2fb89577012fe86ba1b40ce40ca92db8.json
+.angular/cache/babel-webpack/32f3fe742c173e5f9758c69edd6814e8.json
+.angular/cache/babel-webpack/5f1d47a7136018469b0c9ecbc2011ee3.json
+.angular/cache/babel-webpack/743bb6dead6c82406ff3ac6a04d1692c.json
+.angular/cache/babel-webpack/898c5b2ba6fdb66a28e35cf59a6e2a77.json

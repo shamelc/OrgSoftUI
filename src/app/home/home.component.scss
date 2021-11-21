@@ -1,0 +1,20 @@
+.content {
+    padding: 50px;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px 5px #555;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    margin: 15px;
+}
+
+.group {
+    padding-top: 30px;
+    display: block;
+    clear: both;
+}
